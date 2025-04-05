@@ -25,9 +25,7 @@ This Python script allows you to **encode text into numbers** and **decode numbe
   - Full stop (`.`) → `5`
   - Newline (`\n`) → `7`
   - Single quote (`'`) → `9`
-- At the end of the encoded string, the script appends: <br>
-  `13579<starting_number>` <br>
-  This helps with decoding later.
+- At the end of the encoded string, the script appends: `13579<starting_number>` This helps with decoding later.
 
 ---
 
