@@ -1,13 +1,13 @@
-# encrypt_decrypt
+# 🔐 encrypt_decrypt
 
 This Python script allows you to **encode text into numbers** and **decode numbers back into text** using a customizable cipher system.
 
 ## 🚀 How it Works
 
-### 🧾 Inputs:
+### ⌨️ Inputs:
 
-1. A **string**: Either plain text (for encoding) or a numeric string (for decoding)
-2. A **mode**: `"encode"` or `"decode"`
+1. A **mode**: `"encode"` or `"decode"`
+2. A **string**: Either plain text (for encoding) or a numeric string (for decoding)
 3. An **even number** (required **only** for `"encode"` mode)
 
 ---
@@ -25,8 +25,8 @@ This Python script allows you to **encode text into numbers** and **decode numbe
   - Full stop (`.`) → `5`
   - Newline (`\n`) → `7`
   - Single quote (`'`) → `9`
-- At the end of the encoded string, the script appends:
-  13579<starting_number>
+- At the end of the encoded string, the script appends: <br>
+  `13579<starting_number>` <br>
   This helps with decoding later.
 
 ---
